@@ -1,4 +1,9 @@
-int n, fatorial= 1;
+#include<stdio.h>
+#include<stdlib.h>
+
+int main()
+{
+    int n, fatorial= 1;
     
     do{
     printf("Digite um número inteiro e nao negativo: ");
@@ -20,3 +25,5 @@ int n, fatorial= 1;
     }    
     printf("%d! eh igual a %d", n, fatorial);
     return 0;
+
+}
